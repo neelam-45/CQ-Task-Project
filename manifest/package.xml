@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>UserWithPermissionSet</members>
+        <members>AccountTriggerHandlerClass</members>
+        <members>AccountTriggerHandlerClass_Test</members>
+        <members>UserWithPermissionSet_test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Account_Permission_set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Account.Account_Activation_Summary__c</members>
+        <members>Account.Company_Email__c</members>
+        <members>Account.Active__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account_Record_Page</members>
+        <name>Flexipage</name>
+    </types>
+    <types>
+        <members>TriggerOnAccount</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>accountDetailPage</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>56.0</version>
+</Package>
